@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Portfolio</title>
+    <link rel="stylesheet" href="styles_Q1Project.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <img src="logo.png" alt="Student Logo" class="logo">
+            <ul class="nav-links">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#works">My Works</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="hero">
+        <img src="Student.png" alt="Profile Picture" class="profile-pic">
+        <h1>Hello, I'm <span class="highlight">Jane Doe</span></h1>
+        <p>Aspiring Web Developer</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi! I'm Jane, a student passionate about technology, especially in web development. I enjoy creating simple and creative websites. In my free time, I explore new coding tricks and design tools.</p>
+    </section>
+
+    <section id="works">
+        <h2>My Works</h2>
+        <div class="works-gallery">
+
+            <div class="work-item">
+                <img src="Q1Seatwork1_pic.png" alt="Sample Work" style="border: 2px dashed black;">
+                <p style="text-align: center;"> My Favorite Spotify Artis</p>
+            </div>
+            <div class="work-item">
+                <ul>
+                    <li>✔ HTML & CSS Projects</li>
+                    <li>✔ Spotify Artist</li>
+                    <li>✔ List, Links and Images</li>
+                    <li><a href="" style="color: rgb(100, 6, 100);">View GitHub Repository</a></li>
+                </ul>
+            </div>
+
+            <div class="work-item">
+                <img src="Q1Drill2_pic.png" alt="Sample Work" style="border: 2px dashed black;">
+                <p style="text-align: center;">My Rate a Movie Form</p>
+            </div>
+            <div class="work-item">
+                <ul>
+                    <li>✔ HTML & CSS Projects</li>
+                    <li>✔ HTML Forms</li>
+                    <li>✔ Movie Recommendations</li>
+                    <li><a href="" style="color: rgb(100, 6, 100);">View GitHub Repository</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="form-container">
+                <form>
+                <!-- Input Fields -->
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="Jane Doe" required>
+                <br>
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" placeholder="jane_doe@gmail.com" required>
+
+                <br>
+                <!-- Radio -->
+                <label>How did you find me?</label>
+                <div class="radio-group">
+                    <input type="radio" id="rate1" name="rating" value="1" required>
+                    <label for="rate1">Facebook</label>
+
+                    <input type="radio" id="rate2" name="rating" value="2">
+                    <label for="rate2">Google</label>
+
+                    <input type="radio" id="rate3" name="rating" value="3">
+                    <label for="rate3">Friends</label>
+                </div>
+            
+                <br>
+                    <!-- Checkbox -->
+                <label>Interested In:</label>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="action" name="genre" value="Action">
+                    <label for="action">Web Design</label>
+
+                    <input type="checkbox" id="comedy" name="genre" value="Comedy">
+                    <label for="comedy">Graphic Design</label>
+
+                    <input type="checkbox" id="drama" name="genre" value="Drama">
+                    <label for="drama">Robotics</label>
+                </div>
+             
+                <br>
+                <!-- Select -->
+                <label for="platform"> Rate my Portfolio</label>
+                <select id="platform" name="platform" required>
+                    <option value="">-- Select Rating --</option>
+                    <option value="1">⭐</option>
+                    <option value="2">⭐⭐</option>
+                    <option value="3">⭐⭐⭐</option>
+                    <option value="4">⭐⭐⭐⭐</option>
+                    <option value="5">⭐⭐⭐⭐⭐</option>
+                </select>
+                
+                <br>
+                <br>
+                <label for="reason"> Any Feedback?</label>
+                <textarea id="reason" name="reason" rows="4" placeholder="feedback here..." required></textarea>
+                <br>
+
+                <!-- Submit -->
+                <button type="submit"> Submit</button>
+                </form>
+        </div>
+
+    </section>
+
+
+    <footer>
+        <p>&copy; 2026 Jane Doe. All rights reserved.</p>
+    </footer>
+
+<!--Reference:
+Gemini
+Prompt: 
+you are web designer. you are tasked to create a portfolio webpage that requires a logo at the navbar. Generate a logo that has the following details: no background color transparent background, png image format, text should include 'ICT' only in the logo, include objects related to computer system that focuses on imagining, creating, and building, size is 4x4 inches . make it look like more feminine-->
+</body>
+</html>
